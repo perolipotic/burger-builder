@@ -15,14 +15,14 @@ class BurgerIngredient extends Component {
         ingredient = (
           <div className={styles.BreadTop}>
             <div className={styles.Seeds1}></div>
-            <div className={styles.Seeds1}></div>
+            <div className={styles.Seeds2}></div>
           </div>
         );
         break;
       case ('meat'):
         ingredient = <div className={styles.Meat}></div>;
         break;
-      case ('chesee'):
+      case ('cheese'):
         ingredient = <div className={styles.Cheese}></div>;
         break;
       case ('bacon'):
